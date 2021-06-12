@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup />
+  <ItemGroup>
+    <CustomBuild Include="../../../../../../../components/crash/core/app/client_upload_info.cc" />
+    <None Include="../../../../../../../components/crash/core/app/client_upload_info.h" />
+    <None Include="../../../../../../../components/crash/core/app/crash_export_thunks.h" />
+    <CustomBuild Include="../../../../../../../components/crash/core/app/crash_switches.cc" />
+    <None Include="../../../../../../../components/crash/core/app/crash_switches.h" />
+    <CustomBuild Include="../../../../../../../components/crash/core/app/crashpad.cc" />
+    <None Include="../../../../../../../components/crash/core/app/crashpad.h" />
+    <CustomBuild Include="../../../../../../../components/crash/core/app/crashpad_win.cc" />
+    <CustomBuild Include="../../../../../../../components/crash/core/app/dump_hung_process_with_ptype.cc" />
+    <None Include="../../../../../../../components/crash/core/app/dump_hung_process_with_ptype.h" />
+    <CustomBuild Include="../../../../../../../components/crash/core/app/minidump_with_crashpad_info.cc" />
+    <None Include="../../../../../../../components/crash/core/app/minidump_with_crashpad_info.h" />
+  </ItemGroup>
+</Project>

@@ -1,3 +1,5 @@
+_chrome_profile_dbg
+_chrome_profile_ship
 /client-py/
 *.bak
 *.code-workspace
